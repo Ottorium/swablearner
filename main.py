@@ -117,7 +117,7 @@ class QuizApp:
             self.next_button.config(text="Submit [↵]", state=tk.NORMAL)
         else:
             self.question_label.config(text=f"Quiz completed! Final score: {self.score}/{self.total_questions}")
-            self.next_button.config(state=tk.DISABLED, text="Finish")
+            self.next_button.config(state=tk.NORMAL, text="Finish [↵]")
 
     def check_and_next(self):
         if self.next_button.cget('text') == "Finish":
