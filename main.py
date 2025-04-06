@@ -14,7 +14,7 @@ def select_question_set():
     """Create a temporary window to select the question set."""
     temp_root = tk.Tk()
     temp_root.title("Select Question Set")
-    temp_root.geometry("300x200")
+    temp_root.geometry("300x300")
 
     tk.Label(temp_root, text="Please select a question set:", font=("Arial", 12)).pack(pady=10)
 
@@ -22,7 +22,8 @@ def select_question_set():
         "Test 2": questions_test_2,
         "Test 3 Leon": questions_test_3_leon,
         "Test 3 Tobi": questions_test_3_tobi,
-        "Test 3 Hanna": questions_test_3_hanna
+        "Test 3 Hanna": questions_test_3_hanna,
+        "Test 3 Paul": questions_test_3_paul
     }
 
     selected_set = tk.StringVar(value="Test 2")
