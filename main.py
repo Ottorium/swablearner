@@ -104,7 +104,7 @@ class QuizApp:
         return shuffled_answers
 
     def handle_key(self, event):
-        if not self.questions or self.next_button.cget('state') == 'disabled':
+        if self.next_button.cget('state') == 'disabled':
             return
         if event.char in ['1', '2', '3', '4']:
             index = int(event.char) - 1
@@ -132,6 +132,10 @@ class QuizApp:
             self.next_button.config(state=tk.NORMAL, text="Finish [↵]")
 
     def check_and_next(self):
+        if self.current_question is None:
+                    if self.next_button.cget('text') == "Finish [↵]": # Check button text to confirm intent
+                        self.root.quit()
+                    return
         if self.next_button.cget('text') == "Finish":
             self.root.quit()
             return
@@ -155,8 +159,13 @@ class QuizApp:
         self.score_label.config(text=f"Score: {self.score}/{self.total_questions}")
         for button in self.check_buttons:
             button.config(state=tk.DISABLED)
-        self.next_button.config(text="Next [↵]")
         self.question_answered = True
+        if not self.questions:
+            self.question_label.config(text=f"Quiz completed! Final score: {self.score}/{self.total_questions}")
+            self.next_button.config(text="You are finished!", state=tk.DISABLED)
+            self.current_question = None
+        else:
+            self.next_button.config(text="Next [↵]", state=tk.NORMAL)
 
 def run_quiz():
     chosen_questions = select_question_set()
