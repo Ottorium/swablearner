@@ -59,6 +59,7 @@ class QuizApp:
 
         self.root.bind('<Key>', self.handle_key)
         self.root.bind('<Return>', lambda e: self.check_and_next())
+        self.root.bind('<space>', lambda e: self.check_and_next())
 
         self.question_label = tk.Label(root, text="Welcome to the Chemistry Quiz!", font=("Arial", 16), wraplength=500)
         self.question_label.pack(pady=20)
