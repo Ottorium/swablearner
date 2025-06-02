@@ -23,7 +23,8 @@ def select_question_set():
         "Test 3 Leon": questions_test_3_leon,
         "Test 3 Tobi": questions_test_3_tobi,
         "Test 3 Hanna": questions_test_3_hanna,
-        "Test 3 Paul": questions_test_3_paul
+        "Test 3 Paul": questions_test_3_paul,
+        "Test 4 Hanna": questions_test_4_hanna
     }
 
     selected_set = tk.StringVar(value="Test 2")
