@@ -1629,3 +1629,561 @@ questions_test_4_hanna = [
              ["narkotisierend", "aufputschend", "blutgerinnungshemmend", "blutzuckersenkend"],
              [3])
 ]
+
+questions_test_4_leon = [ 
+
+    # 1.1 Proteine 
+
+    Question(1, "Strukturproteine sind", 
+
+             ["wasserlöslich", "Speicherstoffe", "im lebenden Knochen vorhanden", "in Fingernägel vorhanden"], 
+
+             [0, 2, 3]), 
+
+    Question(2, "Strukturproteine sind", 
+
+             ["wasserlöslich", "Speicherstoffe", "im lebenden Knochen vorhanden", "in Haaren vorhanden"], 
+
+             [2, 3]), 
+
+    Question(3, "Strukturproteine sind", 
+
+             ["wasserlöslich", "fibrillär aufgebaut", "im lebenden Knochen vorhanden", "in Fingernägel vorhanden"], 
+
+             [1, 2, 3]), 
+
+    Question(4, "Proteine werden aufgebaut aus", 
+
+             ["Fettsäuren", "Lipiden", "Aminosäuren", "Nukleotiden"], 
+
+             [2]), 
+
+    Question(5, "Eine Peptidkette (Protein) beginnt mit dem", 
+
+             ["Aminoende", "Carboxylende", "5' -Ende", "3' -Ende"], 
+
+             [0]), 
+
+    Question(6, "Zu den Wechselwirkungen zwischen Aminosäuren in Peptiden gehören", 
+
+             ["hydrophile Wechselwirkungen", "hydrophobe Wechselwirkungen", "elektrostatische Wechselwirkungen", "elektrodynamische Wechselwirkungen"], 
+
+             [0, 1, 2]), 
+
+    Question(7, "Die Primärstruktur von Proteinen wird gebildet von", 
+
+             ["der Summe aller kovalenten Bindungen zwischen den Aminosäuren", "der Anordnung der alpha-Helices und beta-Faltblattstrukturen", "der räumlichen Gestalt eines ganzen Proteinmoleküls", "der Aggregation mehrerer Proteinmolekülen (Untereinheiten)"], 
+
+             [0]), 
+
+    Question(8, "Die Sekundärstruktur von Proteinen wird gebildet von", 
+
+             ["der Summe aller kovalenten Bindungen zwischen den Nukleotiden", "der Anordnung der alpha-Helices und beta-Faltblattstrukturen", "der räumlichen Gestalt eines ganzen Proteinmoleküls", "der Aggregation mehrerer Proteinmolekülen (Untereinheiten)"], 
+
+             [1]), 
+
+    Question(9, "Die Sekundärstruktur von Proteinen wird gebildet von", 
+
+             ["der Summe aller kovalenten Bindungen zwischen den Aminosäuren", "der Anordnung der alpha-Helices und beta-Faltblattstrukturen", "der räumlichen Gestalt eines ganzen Proteinmoleküls", "der Aggregation mehrerer Proteinmolekülen (Untereinheiten)"], 
+
+             [1]), 
+
+    Question(10, "Globuläre Proteine sind", 
+
+              ["wasserlöslich", "Speicherstoff", "im Hühnereiweiß vorhanden", "vor allem in Haaren vorhanden"], 
+
+              [0, 2]), 
+
+    Question(11, "Fibrilläre Proteine sind", 
+
+              ["wasserunlöslich", "Speicherstoffe", "im Hühnereiweiß vorhanden", "vor allem in Haaren vorhanden"], 
+
+              [0, 3]), 
+
+    Question(12, "Den Proteingehalt bestimmt man mit", 
+
+              ["der Methode nach Fischer-Tropsch", "der Methode nach Kjeldahl", "der Absorption von UV-Licht", "der Absorption von UV-Licht"], 
+
+              [1]), 
+
+ 
+
+    # 1.2 Fette 
+
+    Question(13, "Zu den Neutralfetten (Triglyceride) gehören", 
+
+             ["Lipoide", "Lecithin", "Phospholipide", "Steroide"], 
+
+             []), 
+
+    Question(14, "Omega-3-Fettsäuren", 
+
+             ["sind ernährungsphysiologisch wertlos", "sind wichtig für das Nervensystem", "sind gesättigte Fettsäuren", "haben keine Doppelbindungen"], 
+
+             [1]), 
+
+    Question(15, "Zu den Omega-3-Fettsäuren gehören die", 
+
+             ["Linolensäure", "Palmitinsäure", "Ölsäure", "Linolsäure"], 
+
+             [0]), 
+
+    Question(16, "Zu den Omega-3-Fettsäuren gehören", 
+
+             ["Ölsäure", "Linolsäure", "Linolensäure", "Palmitinsäure"], 
+
+             [2]), 
+
+    Question(17, "Mehrfach ungesättigte Fettsäuren findet man vor allem in", 
+
+             ["Walnüssen", "Kaltwasserfischen", "Kokosnüssen", "Warmwasserfischen"], 
+
+             [0, 1]), 
+
+    Question(18, "Gesättigte Fettsäuren findet man vor allem in", 
+
+             ["Walnüssen", "Kaltwasserfischen", "Kokosnüssen", "Frittierfett"], 
+
+             [2, 3]), 
+
+    Question(19, "Transfettsäuren sind", 
+
+             ["energetisch stabiler als cis-Fettsäuren.", "ohne Doppelbindungen.", "ernährungsphysiologisch wertvoller als cis-Fettsäuren.", "nur durch Erhitzen über 180°C herstellbar."], 
+
+             [0]), 
+
+    Question(20, "Trans-Fettsäuren sind", 
+
+             ["energetisch stabiler als cis-Fettsäuren.", "ohne Doppelbindungen", "ernährungsphysiologisch wertvoller als cis-Fettsäuren.", "ungesättigte Fettsäuren."], 
+
+             [0, 3]), 
+
+    Question(21, "Cis-Fettsäuren sind", 
+
+             ["energetisch stabiler als trans-Fettsäuren.", "ohne Doppelbindungen.", "ernährungsphysiologisch wertvoller als trans-Fettsäuren.", "ungesättigte Fettsäuren."], 
+
+             [2, 3]), 
+
+    Question(22, "Lecithin ist", 
+
+             ["ein Protein", "ein Phospholipid", "ein Risikofaktor für Krebs", "ein Membranbestandteil von Nervenzellen"], 
+
+             [1, 3]), 
+
+ 
+
+    # 1.3 Kohlenhydrate 
+
+    Question(23, "Zu den Monosacchariden gehören", 
+
+             ["Fructose", "Maltose", "Cellulose", "Glucose"], 
+
+             [0, 3]), 
+
+    Question(24, "Zu den Disacchariden gehören", 
+
+             ["Fructose", "Maltose", "Cellulose", "Glucose"], 
+
+             [1]), 
+
+    Question(25, "Saccharose beinhaltet", 
+
+             ["Glucose", "Fructose", "eine alpha-glykosidische Bindung", "eine beta-glykosidische Bindung"], 
+
+             [0, 1, 2, 3]), 
+
+    Question(26, "Lactose beinhaltet", 
+
+             ["Glucose", "Fructose", "eine alpha-glykosidische Bindung", "Schleimzucker"], # Schleimzucker is Galactose 
+
+             [0, 3]), 
+
+    Question(27, "Zu den Ketosen gehört", 
+
+             ["Fruchtzucker", "Glucose", "Fructose", "Blutzucker"], # Fruchtzucker is Fructose, Blutzucker is Glucose 
+
+             [0, 2]), 
+
+    Question(28, "Ketosen", 
+
+             ["sind Neutralfette", "haben eine Aldehydgruppe.", "haben eine Ketogruppe.", "können eine Ringform bilden"], 
+
+             [2, 3]), 
+
+    Question(29, "Aldosen", 
+
+             ["sind Proteine", "haben eine Aldehydgruppe.", "haben eine Ketogruppe.", "können eine Ringform bilden."], 
+
+             [1, 3]), 
+
+    Question(30, "Die Ringstruktur von Zuckern kann mit folgender Projektionsformel dargestellt werden", 
+
+             ["nach Bohr", "nach Fischer", "nach Haworth", "nach Fehling"], 
+
+             [1, 2]), # Fischer for linear, Haworth for cyclic. Assuming context allows both related to sugar structures. 
+
+    Question(31, "Pyranosen", 
+
+             ["bilden einen Fünferring", "bilden einen Sechserring", "sind zum Beispiel Glucose", "sind zum Beispiel Fructose"], 
+
+             [1, 2]), 
+
+    Question(32, "Furanosen", 
+
+             ["bilden einen Fünferring", "bilden einen Sechserring", "sind zum Beispiel Glucose", "sind zum Beispiel Fructose"], 
+
+             [0, 3]), 
+
+    Question(33, "Stärke", 
+
+             ["ist aus Glucoseeinheiten aufgebaut", "ist aus Fructoseeinheiten aufgebaut", "besitzt beta-glykosidische Bindungen", "besitzt alpha-glykosidische Bindungen"], 
+
+             [0, 3]), 
+
+    Question(34, "Zellulose", 
+
+             ["ist aus Glucoseeinheiten aufgebaut", "ist aus Fructoseeinheiten aufgebaut", "besitzt beta-glykosidische Bindungen", "besitzt alpha-glykosidische Bindungen"], 
+
+             [0, 2]), 
+
+ 
+
+    # 2.1 DNA und Genetischer Code 
+
+    Question(35, "DNA ist die Abkürzung für", 
+
+             ["Das Neue Arbeiten", "Deoxyribo Nucleic Acid", "Dear New Abbreviation", "Ribo Nucleic Acid"], 
+
+             [1]), 
+
+    Question(36, "In der DNA findet man folgende Kernbasen", 
+
+             ["Uracil", "Thymin", "Adenin", "Cytosin"], 
+
+             [1, 2, 3]), 
+
+    Question(37, "DNA beinhaltet", 
+
+             ["Cytosin", "Adenin", "Thymin", "Uracil"], 
+
+             [0, 1, 2]), 
+
+    Question(38, "DNA beinhaltet", 
+
+             ["Cytosin", "Adenosin", "Thymin", "Uracil"], 
+
+             [0, 2]), # Adenosin (nucleoside) is not selected based on image highlighting. 
+
+    Question(39, "Der komplementäre Code für die DNA-Sequenz “ACG” lautet", 
+
+             ["“TGC”", "“UTC”", "“GAU”", "“UGC”"], 
+
+             [0]), 
+
+ 
+
+    # 2.2 Zellteilung und Proteinbiosynthese 
+
+    Question(40, "Ein Nukleotid der RNA beinhaltet immer", 
+
+             ["eine Desoxyribose", "eine Ribose", "ein Phosphat", "eine Kernsäure"], 
+
+             [1, 2]), 
+
+    Question(41, "RNA beinhaltet folgende Kernbasen", 
+
+             ["Adenin", "Thymin", "Uracil", "Cytosin"], 
+
+             [0, 2, 3]), # Guanin is missing from options 
+
+    Question(42, "RNA beinhaltet", 
+
+             ["Cytosin", "Adenosin", "Thymin", "Uracil"], 
+
+             [0, 3]), # Adenosin (nucleoside) not highlighted 
+
+    Question(43, "RNA beinhaltet", 
+
+             ["Cytosin", "Adenin", "Thymin", "Uracil"], 
+
+             [0, 1, 3]), # Following image highlighting (Cytosin not highlighted) 
+
+    Question(44, "Die Basenpaarungen in der RNA lauten", 
+
+             ["Cytosin - Uracil", "Adenin - Thymin", "Thymin - Guanin", "Uracil - Adenin"], 
+
+             [3]), # Only A-U pairing highlighted 
+
+    Question(45, "Die komplementäre Sequenz für das RNA-Codon “ACG” lautet", 
+
+             ["“TGC”", "“UTC”", "“GAU”", "“UGC”"], 
+
+             [3]), # RNA complement (e.g., anticodon for ACG is UGC) 
+
+    Question(46, "Transkription", 
+
+             ["ist die Bezeichnung der Bildung von Proteinen nach einer m:RNA-Vorlage", "findet im Zellkern statt", "bildet DNA aus RNA", "bildet RNA aus DNA"], 
+
+             [1, 3]), # Occurs in nucleus (eukaryotes), RNA made from DNA 
+
+    Question(47, "Translation", 
+
+             ["ist die Bezeichnung der Bildung von Proteinen nach einer m:RNA-Vorlage", "findet im Zellkern statt", "bildet DNA aus RNA", "bildet RNA aus DNA"], 
+
+             [0]), 
+
+    Question(48, "Bei der Translation folgender mRNA wird folgende AS-Sequenz gebildet: 5‘ACCGGUAAA 3‘", 
+
+             ["Leu-Val-Gly-Ser", "Pro-Tyr-Cys", "Trp-Arg-Ala-Ile", "Thr Gly Lys"], 
+
+             [3]), # ACC=Thr, GGU=Gly, AAA=Lys 
+
+    Question(49, "Ribosomen benötigt ein Lebewesen für", 
+
+             ["die Autoreplikation", "die Transkription", "die Translation", "die identische Reduplikation"], 
+
+             [2]), 
+
+    Question(50, "t-RNAs (transfer RNAs) benötigt ein Lebewesen für", 
+
+             ["die Autoreplikation", "die Transkription", "die Translation", "die identische Reduplikation"], 
+
+             [2]), 
+
+    Question(51, "Ein Codon", 
+
+             ["codiert eine Fettsäure", "codiert eine Aminosäure", "ist ein Basentriplett (bestehend aus 3 Kernbasen)", "ist ein Säuretriplett (bestehend aus 3 Kernsäuren)"], 
+
+             [1, 2]), 
+
+ 
+
+    # 2.3 Molekularbiologische Analytik 
+
+    Question(52, "PCR bedeutet in der Biotechnologie", 
+
+             ["Polytechnical City Rail", "Political Correctness Ranking", "Post Communistic Rights", "Polymerase Chain Reaction"], 
+
+             [3]), 
+
+    Question(53, "PCR bedeutet in der Biotechnologie", 
+
+                 ["Pupil´s Confirmed Rights", "Political Correctness Ranking", "Polymerase Construction Reaction", "Polypeptid Chain Reaction"], 
+
+                 []), 
+
+    Question(54, "Die PCR dient zum Vervielfältigen von", 
+
+             ["Proteinen", "Kohlehydraten", "Lipiden", "Desoxyribonukleinsäuren"], 
+
+             [3]), 
+
+    Question(55, "Die Phasen der PCR finden vom Start weg in folgender Reihung statt", 
+
+             ["Annealing – Denaturierung – Elongation", "Elongation – Denaturierung – Annealing", "Denaturierung – Elongation – Annealing", "Elongation – Annealing - Denaturierung"], 
+
+             []), # Note: Highlighted answer (Denaturierung – Elongation – Annealing) deviates from standard PCR cycle (Denaturierung – Annealing – Elongation). 
+
+    Question(56, "DNA wird in folgender Richtung abgelesen/synthetisiert", 
+
+             ["1´-5´", "3´-5´", "5´-3´", "3´-1´"], 
+
+             [2]), # Correct for synthesis direction. 
+
+    Question(57, "DNA wird in", 
+
+             ["5´- 3´-Richtung abgelesen", "4´- 3´-Richtung gebildet", "3´- 5´-Richtung gebildet", "3´- 4´-Richtung abgelesen"], 
+
+             [0]), 
+
+ 
+
+    # 2.4 Methoden  der Gentechnik und DNA - Rekombinationstechnik 
+
+    Question(58, "Plasmide", 
+
+             ["sind infektiös", "bestehen aus zirkulärer DNA", "bestehen aus linearer RNA", "bestehen aus Proteinen"], 
+
+             [1]), # Correct answer is b 
+
+    Question(59, "Plasmide", 
+
+             ["sind Lebewesen", "bestehen nur aus DNA", "bestehen nur aus Proteinen", "bestehen sowohl aus Erbsubstanz (DNA) wie aus Proteinen"], 
+
+             [1]), # Correct answer is b 
+
+    Question(60, "Plasmide", 
+
+             ["sind Lebewesen", "bestehen nur aus DNA", "bestehen nur aus Proteinen", "bestehen sowohl aus Erbsubstanz (DNA/RNA) wie aus Proteinen"], 
+
+             [1]), # Correct answer is b 
+
+    Question(61, "Viren", 
+
+             ["sind Lebewesen", "bestehen nur aus DNA/RNA", "bestehen nur aus Proteinen", "bestehen sowohl aus Erbsubstanz (DNA/RNA) wie aus Proteinen"], 
+
+             [3]), # Correct answer is d 
+
+    Question(62, "Viren", 
+
+             ["sind infektiös", "besitzen DNA oder RNA", "sind keine Lebewesen", "besitzen Proteine"], 
+
+             [0, 1, 2, 3]), # All options a, b, c, d are highlighted as correct 
+
+    Question(63, "Bakteriophagen", 
+
+             ["infizieren Bakterien", "besitzen einen Kopf", "sind Viren", "besitzen eine kontrahierbare Scheide"], 
+
+             [0, 1, 2, 3]), # All options a, b, c, d are highlighted as correct 
+
+    Question(64, "Klone besitzen immer dasselbe", 
+
+             ["Alter", "Genom (Summe der DNA)", "Aussehen", "Erfahrungswissen"], 
+
+             [1]), # Correct answer is b 
+
+    Question(65, "Für den programmierten Zelltod besitzt die DNA einen", 
+
+             ["Poly A-Schwanz", "Poly G-Schwanz", "Poly C-Schwanz", "Poly U-Schwanz"], 
+
+             [1]), 
+
+ 
+
+    # 3.1 Metabolismus und Enzyme 
+
+    Question(66, "Zum Metabolismus gehören", # Assuming IDs continue from a previous set, or starting from 9 if it's a new context. I'll use a continuous sequence from 9 for this set. 
+
+             ["Photosynthese", "Atmung", "Gärung", "die Bildung von Proteinen"], 
+
+             [0, 1, 2, 3]), # Correct answers are a, d 
+
+    Question(67, "Katabolismus bildet folgende Stoffe:", 
+
+             ["ATP", "energiereiche Phosphate", "Proteine", "Lipide"], 
+
+             [0, 1]), # Correct answers are a, b 
+
+    Question(68, "Katabole Stoffwechselvorgänge", 
+
+             ["liefern Energie", "bauen Nährstoffe (Fette, Kohlenhydrate, Proteine) ab", "bilden Muskelgewebe", "gehören zum Metabolismus"], 
+
+             [0, 1, 3]), # Correct answers are a, b 
+
+    Question(69, "Anabolismus bildet folgende Stoffe:", 
+
+             ["ATP", "energiereiche Phosphate", "Proteine", "Lipide"], 
+
+             [2, 3]), # Correct answer is c 
+
+    Question(70, "Anabole Stoffwechselvorgänge", 
+
+             ["liefern Energie", "bauen Nährstoffe (Fette, Kohlenhydrate, Proteine) ab", "bilden Muskelgewebe", "gehören zum Metabolismus"], 
+
+             [2, 3]), # Correct answers are c, d 
+
+    Question(71, "Zu den autotrophen Organismen gehören", 
+
+             ["Tiere", "Pflanzen", "Pilze", "Cyanobakterien"], 
+
+             [1, 3]), # Correct answers are b, d 
+
+    Question(72, "Zu den chemotrophen Organismen gehören", 
+
+             ["Tiere", "Pflanzen", "Pilze", "Cyanobakterien"], 
+
+             [0, 2]), # Correct answers are a, c 
+
+    Question(73, "Zu den chemoorganotrophen Organismen gehören", 
+
+             ["Tiere", "Pflanzen", "Pilze", "Cyanobakterien"], 
+
+             [0, 2]), # Correct answers are a, c 
+
+    Question(74, "Enzyme", 
+
+             ["sind Biokatalysatoren", "bestehen aus Lipiden und Kohlehydraten", "erhöhen die Aktivierungsenergie", "senken die Reaktionsgeschwindigkeit"], 
+
+             [0]), # Correct answers are a, d 
+
+    Question(75, "Oxidoreduktasen", 
+
+             ["dehydrogenieren oder hydrogenieren", "übertragen funktionelle Gruppen", "trennen durch Wasserabspaltung Ester, glycosidische Bindungen und Peptide", "binden zwei Moleküle kovalent aneinander"], 
+
+             [0]), # Correct answer is a 
+
+    Question(76, "Transferasen", # This is labeled as 11. in the image, but I'm continuing the sequence. 
+
+             ["dehydrogenieren oder hydrogenieren", "übertragen funktionelle Gruppen", "trennen durch Wasserabspaltung Ester, glycosidische Bindungen und Peptide", "binden zwei Moleküle kovalent aneinander"], 
+
+             [1]), 
+
+    Question(77, "Esterasen", # Continuing ID sequence 
+
+             ["sind Hydrolasen", "können Lipasen sein", "können Proteasen sein", "können Amylasen sein"], 
+
+             [0, 1]), # Correct answers are a, b 
+
+    Question(78, "Hydrolasen", 
+
+             ["dehydrogenieren oder hydrogenieren", "übertragen funktionelle Gruppen", "trennen durch Wasserabspaltung Ester, glycosidische Bindungen und Peptide", "binden zwei Moleküle kovalent aneinander"], 
+
+             []), # No answer highlighted 
+
+    Question(79, "Isomerasen", 
+
+             ["dehydrogenieren oder hydrogenieren", "übertragen funktionelle Gruppen", "trennen durch Wasserabspaltung Ester, glycosidische Bindungen und Peptide", "binden zwei Moleküle kovalent aneinander"], 
+
+             []), # No answer highlighted 
+
+    Question(80, "Ligasen", 
+
+             ["dehydrogenieren oder hydrogenieren", "übertragen funktionelle Gruppen", "trennen durch Wasserabspaltung Ester, glycosidische Bindungen und Peptide", "binden zwei Moleküle kovalent aneinander"], 
+
+             [3]), # Correct answer is d 
+
+    Question(81, "NAD+", 
+
+             ["ist ein Multienzym", "ist ein Coenzym", "bedeutet Nicotinamid-adenin-dinucleotid", "bedeutet Nisin-Aramin-Dipeptid"], 
+
+             [1, 2]), # Correct answers are a, b, c (Note: 'a' is highlighted but NAD+ is a coenzyme, not a multienzyme system itself) 
+
+    Question(82, "Der Pasteureffekt in der Biotechnologie beschreibt, dass Hefen bei", 
+
+             ["Sauerstoffmangel atmen", "Sauerstoffgegenwart gären", "Sauerstoffmangel gären", "Sauerstoffgegenwart atmen"], 
+
+             [2, 3]), # Correct answers are c, d 
+
+    Question(83, "Folgende Aussagen treffen nach dem Pasteureffekt für Hefen bei Vorhandensein von Glucose zu:", 
+
+             ["Die anaerobe Atmung bringt mehr Energie als die aerobe Gärung", "Die aerobe Atmung erzeugt mehr ATP als die anaerobe alkoholische Gärung.", "Die aerobe Atmung erzeugt weniger Ethanol als die anaerobe Gärung.", "Die anaerobe Atmung bringt mehr ATP als die aerobe Gärung."], 
+
+             [1, 2]), # Correct answer is b 
+
+    Question(84, "Bei der alkoholischen Gärung von Glucose durch Hefen", 
+
+             ["wird mehr Energie gewonnen als bei der Atmung.", "wird weniger ATP produziert als bei der Atmung.", "wird mehr CO₂ produziert als bei der Atmung.", "wird weniger O₂ benötigt als bei der Atmung."], 
+
+             [1, 3]), # Correct answers are b, c, d 
+
+    Question(85, "Biologische Membranen", 
+
+             ["werden durch kovalente Bindungen zusammengehalten.", "sind für Ionen durchlässig.", "sind innen hydrophil.", "sind außen hydrophob."], 
+
+             []), # No answer highlighted 
+
+    Question(86, "Tunnelproteine", 
+
+             ["sind in Biomembrane eingelagert.", "dienen dem aktiven Stofftransport.", "heißen auch Carrier.", "heißen auch Kanalproteine."], 
+
+             [0, 3]), # Correct answers are a, c, d 
+
+    Question(87, "Trägerproteine", 
+
+             ["sind in Biomembrane eingelagert.", "dienen dem aktiven Stofftransport.", "heißen auch Carrier.", "heißen auch Kanalproteine."], 
+
+             [0, 1, 2]) # Correct answers are a, b 
+
+ 
+
+] 
