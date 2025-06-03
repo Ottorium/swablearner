@@ -108,8 +108,15 @@ class QuizApp:
     def handle_key(self, event):
         if self.next_button.cget('state') == 'disabled':
             return
-        if event.char in ['1', '2', '3', '4']:
-            index = int(event.char) - 1
+
+        pressed_key = event.char
+
+        key_mapping = {'j': '1', 'k': '2', 'l': '3', ';': '4', 'i' : '2', 'o' : '3', 'p' : '4'}
+        if pressed_key in key_mapping:
+            pressed_key = key_mapping[pressed_key]
+
+        if pressed_key in ['1', '2', '3', '4']:
+            index = int(pressed_key) - 1 
             if index < len(self.check_vars) and not self.question_answered:
                 current_value = self.check_vars[index].get()
                 self.check_vars[index].set(1 - current_value)
